@@ -1,0 +1,59 @@
+.myBg {
+  height: 100vh;
+  background: url("../assets/AI/Midjourney/main.png");
+  background-size: cover;
+}
+
+.intro {
+  height: 400px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 2px 2px black;
+  letter-spacing: 5px;
+}
+
+.subtitle {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1;
+  text-shadow: 2px 2px black;
+}
+
+.trending {
+  height: auto;
+  background: url("../assets/AI/Midjourney/trending.png");
+  background-size: cover;
+}
+
+.potrait {
+  height: auto;
+  background: url("../assets/AI/Midjourney/potrait.png");
+  background-size: cover;
+}
+
+.movieWrapper {
+}
+
+.movieImage {
+  height: auto;
+  background-color: black;
+  margin: 5px;
+  padding: 5px;
+}
+
+/* ini kalau gambarnya beda ukuran, ditaro classname di card.image */
+.images {
+  height: 500px;
+}
+
+.card-text {
+  word-wrap: break-word;
+}
